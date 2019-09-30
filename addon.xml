@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.seedr_repo" name="Seedr Kodi Addons" version="1.0.0" provider-name="seedr-kodi">
+<addon id="repository.seedr_repo" name="Seedr Kodi Addons" version="1.0.0" provider-name="seedr">
 	<extension point="xbmc.addon.repository" name="Seedr Kodi Repo">
 		<info compressed="false">https://raw.githubusercontent.com/red-software/seedr_kodi_repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/red-software/seedr_kodi_repo/master/addons.xml.md5</checksum>
