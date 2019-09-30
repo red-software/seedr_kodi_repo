@@ -7,7 +7,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Kodi Addons by Seedr.cc</summary>
-		<description></description>
+		<description>Kodi Addon Repository by Seedr</description>
 		<disclaimer>you take full responsibility to any and all use you make of Seedr and affiliated products.</disclaimer>
 		<platform>all</platform>
 	</extension>
