@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.seedr_repo" name="Seedr Kodi Addons" version="1.0.0" provider-name="seedr">
-	<extension point="xbmc.addon.repository" name="Seedr Kodi Repo">
-		<info compressed="false">https://raw.githubusercontent.com/red-software/seedr_kodi_repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/red-software/seedr_kodi_repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/red-software/seedr_kodi_repo/master</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Kodi Addons by Seedr.cc</summary>
-		<description>Kodi Addon Repository by Seedr</description>
-		<disclaimer>you take full responsibility to any and all use you make of Seedr and affiliated products.</disclaimer>
-		<platform>all</platform>
-	</extension>
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.seedr_kodi_repository" name="Seedr Add-Ons" provider-name="Seedr" version="1.0.0">
+  <extension point="xbmc.addon.repository" name="Seedr Add-Ons Repository">
+    <info compressed="false">https://raw.githubusercontent.com/red-software/seedr_kodi_repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/red-software/seedr_kodi_repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/red-software/seedr_kodi_repo/master/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Install Seedr for Kodi</summary>
+    <description>The repository contains the Seedr Add-On and the updating mechanism</description>
+    <disclaimer>you take full responsibility to any and all use you make of Seedr and affiliated products.</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
-
